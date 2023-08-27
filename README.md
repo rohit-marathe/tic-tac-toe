@@ -4,7 +4,7 @@
 
     This requires [React](https://reactjs.org/) v18.2.0+ to run.
 
-    Install the dependencies
+    Install the dependencies and start the server.
 
     ## Installation
     To clone and run this application, you will need [Git][git] and [Node.js][node] installed on your computer.
