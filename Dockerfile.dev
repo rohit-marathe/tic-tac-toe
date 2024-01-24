@@ -1,0 +1,13 @@
+FROM node
+
+WORKDIR /myapp
+
+COPY package.json /myapp
+
+COPY package-lock.json /myapp
+
+RUN npm install 
+
+COPY . .
+
+CMD [ "npm", "start" ]
