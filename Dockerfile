@@ -1,3 +1,4 @@
+FROM node
 
 WORKDIR /myapp
 
